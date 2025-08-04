@@ -5,10 +5,10 @@ compatibility_date = "2025-08-04"
 # KV namespace for storing URL mappings
 [[kv_namespaces]]
 binding = "URL_STORE"
-id = "7b589339745a46738dde6da7aff3cc92"
+id = "your-kv-namespace-id"
 preview_id = "your-preview-kv-namespace-id"
 
 # Environment variables
 [vars]
-DOMAIN = "gl1.qzz.io"
-ADMIN_PASSWORD = "wzg@0204"  # Change this to a secure password
+DOMAIN = "yourdomain.com"
+ADMIN_PASSWORD = "your-password"  # Change this to a secure password
