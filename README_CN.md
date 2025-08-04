@@ -37,7 +37,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/greenlink.git
+git clone https://github.com/ChKSz/greenlink.git
 cd greenlink
 ```
 
@@ -46,17 +46,11 @@ cd greenlink
 npm install -g wrangler
 ```
 
-### 3. 配置环境
-复制 `wrangler.toml.example` 为 `wrangler.toml`：
-```bash
-cp wrangler.toml.example wrangler.toml
-```
-
-编辑 `wrangler.toml`：
+### 3.创建 `wrangler.toml`：
 ```toml
 name = "greenlink"
 main = "src/index.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2025-08-04"
 
 [vars]
 ADMIN_PASSWORD = "your-secure-password"
@@ -249,20 +243,6 @@ Content-Type: application/json
 - 就近访问加速
 - 自动故障转移
 
-## 📈 监控和分析
-
-### 内置统计
-- 点击量统计
-- 来源分析
-- 设备类型
-- 地理分布
-
-### 外部集成
-可集成第三方分析工具：
-- Google Analytics
-- 百度统计
-- 自定义统计
-
 ## 🤝 贡献指南
 
 ### 开发环境
@@ -284,12 +264,11 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ## 🆘 支持
 
 ### 问题反馈
-- [GitHub Issues](https://github.com/your-username/greenlink/issues)
-- [讨论区](https://github.com/your-username/greenlink/discussions)
+- [GitHub Issues](https://github.com/ChKSz/greenlink/issues)
+- [讨论区](https://github.com/chksz/greenlink/discussions)
 
 ### 联系方式
-- 邮箱：your-email@example.com
-- 微信：your-wechat-id
+- 邮箱：i@wzg.best
 
 ---
 
